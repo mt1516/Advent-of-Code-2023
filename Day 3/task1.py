@@ -23,7 +23,7 @@ def adjacency(input):
             # get left and right number
             if found:
                 left, right = col, col
-                while left > 0 and line[left - 1].isdigit() :
+                while left > 0 and line[left - 1].isdigit():
                     left -= 1
                 while right < len(line) - 1 and line[right + 1].isdigit():
                     right += 1
